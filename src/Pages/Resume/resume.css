@@ -1,0 +1,14 @@
+.proficiency {
+  padding-top: 1rem;
+  font-size: larger;
+  color: black;
+}
+.button {
+  background-color: #c175ff;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.resume-title {
+  color: #896deb;
+}

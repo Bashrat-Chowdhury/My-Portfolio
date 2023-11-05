@@ -43,8 +43,3 @@
   text-decoration: none;
   color: purple;
 }
-
-.nav-item a:hover {
-  color: purple;
-  transition: color 0.3s ease-in-out;
-}
