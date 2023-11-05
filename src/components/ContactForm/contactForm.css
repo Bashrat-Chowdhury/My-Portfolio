@@ -1,0 +1,25 @@
+input {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  padding-left: 0.4rem;
+  width: 20rem;
+}
+
+textarea {
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+  padding-left: 0.4rem;
+  width: 20rem;
+}
+.form-group {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.error {
+  border: solid 1px;
+  color: red;
+  width: 11rem;
+  border-radius: 1rem;
+  padding: 0.6rem;
+}
