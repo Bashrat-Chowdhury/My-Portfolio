@@ -21,7 +21,23 @@ const About = () => {
                 <div className="title about-title">About Me</div>
 
                 <div className="subtitle about-subtitle">
-                  Hello I am Bashrat...
+            
+                 <p> Hello, I'm Bashrat Chowdhury, a passionate full stack software
+                  developer with a strong foundation in programming and a knack
+                  for problem-solving! </p> 
+                 
+                  <p>My journey as a developer began in university. Since then, I have honed my skills and gained
+                  experience in a variety of programming languages and
+                  frameworks, such as JavaScript, React, MongoDB, etc.</p>
+              
+                  <p>I am also professionally a Product manager with
+                  1.5+ years of experience driving successful product
+                  development from concept to launch. I have strong analytical and
+                  communication skills, with a passion for delivering
+                  customer-centric solutions that enhance user experiences.</p>
+
+                  Hope you enjoy my webpage and get in touch!
+        
                 </div>
               </div>
 
