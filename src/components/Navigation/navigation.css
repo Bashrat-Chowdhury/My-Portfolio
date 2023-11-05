@@ -1,0 +1,50 @@
+.nav-container {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 3vh;
+  z-index: 999;
+}
+
+.nav-background {
+  width: 41rem;
+  background: #896deb;
+  border-radius: 40px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin-left: -16px;
+  margin-right: 20px;
+  margin-top: 11px;
+}
+
+.nav-item {
+  font-weight: bold;
+  font-size: 80%;
+}
+
+.nav-item.active a {
+  color: black !important;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: purple;
+}
+
+.nav-item a:hover {
+  color: purple;
+  transition: color 0.3s ease-in-out;
+}
