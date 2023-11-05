@@ -46,20 +46,7 @@
   width: 100%;
 }
 
-.about-socials {
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-
-.about-socials-mobile {
-  display: none;
-}
-
 @media (max-width: 1024px) {
-  .about-logo {
-    z-index: 100;
-  }
-
   .about-main {
     flex-direction: column;
   }
@@ -80,15 +67,6 @@
 
   .about-image-container {
     padding-bottom: 40px;
-  }
-
-  .about-socials {
-    display: none;
-  }
-
-  .about-socials-mobile {
-    padding-top: 30px;
-    display: flex;
   }
 }
 

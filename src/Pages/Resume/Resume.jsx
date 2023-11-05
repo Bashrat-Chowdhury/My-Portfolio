@@ -9,6 +9,17 @@ const Resume = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  //function to download PDF
+  const downloadPDF = () => {
+    const pdfUrl =
+      "https://drive.google.com/file/d/1m_fnyYj9BDbz2tVQYt9OlqPEtPK-Vpmn/view?usp=sharing";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "Bashrat-Chowdhury-Resume.pdf";
+    link.click();
+  };
+
   return (
     <React.Fragment>
       <div className="page-content">
@@ -30,7 +41,9 @@ const Resume = () => {
             </li>
           </ul>
           <h2 className="resume-title">Download my resume here:</h2>
-          <button className="button">Download</button>
+          <button className="button" onClick={downloadPDF}>
+            Click Me
+          </button>
           <div className="page-footer">
             <Footer />
           </div>

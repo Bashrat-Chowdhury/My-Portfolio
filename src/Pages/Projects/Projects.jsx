@@ -20,8 +20,6 @@ const Projects = () => {
           <div className="projects-container">
             <div className="title projects-title">My Projects</div>
 
-            <div className="subtitle projects-subtitle">Subtitle content</div>
-
             <div className="projects-list">
               <ProjectList />
             </div>

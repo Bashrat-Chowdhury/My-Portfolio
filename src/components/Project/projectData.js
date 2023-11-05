@@ -3,7 +3,7 @@ const ProjectData = {
     {
       title: "Social Network API",
       description:
-        "An API for a social network web application using Express.js , Mongoose, MongoDB.",
+        "An API for a social network web application using Express.js, Mongoose, MongoDB.",
       link: "https://github.com/Bashrat-Chowdhury/Social-Network-API",
       link2: "",
     },
