@@ -5,11 +5,13 @@ import ProjectData from "../Project/projectData";
 import "./project.css";
 
 const ProjectList = () => {
+
   return (
     <div className="all-projects-container">
       {ProjectData.projects.map((project, index) => (
         <div className="all-projects-project" key={index}>
           <ProjectCard
+            img={project.img}
             title={project.title}
             description={project.description}
             linkText={project.linkText}
