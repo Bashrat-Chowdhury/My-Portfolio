@@ -23,7 +23,7 @@ const Resume = () => {
   return (
     <React.Fragment>
       <div className="page-content">
-        <NavBar active="home" />
+        <NavBar active="resume" />
         <div className="content-wrapper">
           <h1 className="resume-title">My Proficiencies</h1>
 
