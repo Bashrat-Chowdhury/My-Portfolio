@@ -1,3 +1,12 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  padding-top: 70px;
+}
+
+
 .proficiency {
   padding-top: 1rem;
   font-size: larger;
@@ -10,5 +19,6 @@
 }
 
 .resume-title {
-  color: #896deb;
+  color: black;
 }
+

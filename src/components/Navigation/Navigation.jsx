@@ -12,6 +12,11 @@ const NavBar = (props) => {
         <nav className="navbar">
           <div className="nav-background">
             <ul className="nav-list">
+            <li
+                className={active === "about" ? "nav-item active" : "nav-item"}
+              >
+                <Link to="/">Bashrat Chowdhury</Link>
+              </li>
               <li
                 className={active === "about" ? "nav-item active" : "nav-item"}
               >
