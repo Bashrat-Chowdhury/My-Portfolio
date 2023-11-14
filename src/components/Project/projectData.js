@@ -44,12 +44,11 @@ const ProjectData = {
     },
 
     {
-      title: "Book Engine",
-      description:
-        "Book Search website that uses a graphql backend to save books to user's account",
-      link: "https://github.com/Bashrat-Chowdhury/MERN-Book-Engine",
-      link2: "link to deployed app",
-      img: "./BookSearch.png",
+      title: "EKIN",
+      description: "MERN E-commerce app for your fitness apparel needs!",
+      link: "https://github.com/SanjeethTharmarajah/ekin",
+      link2: "https://ekin555-f6889f1fc8cf.herokuapp.com/",
+      img: "./ekin.png",
     },
   ],
 };
